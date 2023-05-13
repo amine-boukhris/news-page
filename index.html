@@ -4,49 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- icon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- css files -->
+  <link rel="stylesheet" href="./styles/modern-normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/components/hero.css">
+
+  <link rel="stylesheet" href="./styles/utils.css">
   
+  <!-- title -->
   <title>Frontend Mentor | News homepage</title>
 
 </head>
 <body>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <header class="header container">
+    <img src="./assets/images/logo.svg" alt="logo">
+    <nav>
+        <ul class="header__menu">
+            <li><a class="header__link" href="#">Home</a></li>
+            <li><a class="header__link" href="#">New</a></li>
+            <li><a class="header__link" href="#">Popular</a></li>
+            <li><a class="header__link" href="#">Trending</a></li>
+            <li><a class="header__link" href="#">Categories</a></li>
+        </ul>
+        <img src="./assets/images/icon-menu.svg" alt="menu" class="header__menu-bars">
+    </nav>
+    
+  </header>
 
-  The Bright Future of Web 3.0?
+  <main>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+    <section class="content container section">
+        <section class="hero container">
+            <picture style="display: grid; place-items: center;">
+                <source media="(min-width: 1024px)" srcset="./assets/images/image-web-3-desktop.jpg">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+            </picture>
+            <div class="hero__content">
+                <h1 class="hero__title">The Bright Future of Web 3.0?</h1>
+                <div class="hero__text">
+                    <p class="hero__paragraph">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section class="container"></section>
+    </section>
 
-  Read more
+    <section></section>
 
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
+  </main>
   
 </body>
 </html>
