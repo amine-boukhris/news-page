@@ -24,4 +24,31 @@
 
 .hero__paragraph {
     color: var(--clr-slate600);
+    max-width: 60ch;
 }
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (width > 1024px) {
+    .hero__content {
+        flex-direction: row;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

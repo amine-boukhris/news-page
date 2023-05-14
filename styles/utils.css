@@ -40,8 +40,6 @@
     margin-right: auto;
     padding-left: .5rem;
     padding-right: .5rem;
-    
-    /* we didn't use margin 0 auto it will have the most priority and then we won't be able to give margin to the continer */
 }
 
 .section {
